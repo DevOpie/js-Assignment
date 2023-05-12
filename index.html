@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Biography</title>
+      <link rel="css" href="./css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Biography</h1>
+      <h2>Alawode Muneef Opeyemi</h2>
+        <img src="DevOpie.png" width="250" height="280">
+        <p>ABOUT ME</p>
+        <p>My name is Alawode Muneef Opeyemi.</p>
+        <p>I'm a native of olorunsogo local government (Igbeti) in oyo state.</p>
+        <p>I had Diploma in Electrical & Electronics Engineering at Federal polytechnic Ede</p>
+        <p>Also HND in electrical & Electronics Engineering (Electronics & Telecom Option)</p>
+        <p>Presently, i work with Sobi 101.9 Fm Ilorin as a Broadcast Engineer</p>
+        <p>I can  be reached on various social media platform: Whatsapp(+2348143418482), Facebook (Muneef Alawode), Twitter (@voltagelord31), Instagram (voltagelord31)</p>
+        <p id="text">I am currently learning HTML and CSS</p>
+        <button id="update-me">Update Me</button>
+    </div>
+    <script>
+      // Get the button and the text element
+      var button = document.querySelector('#update-me');
+      var text = document.querySelector('#text');
+      
+      // Add a click event listener to the button
+      button.addEventListener('click', function() {
+        // Change the text to "I'm Learning Javascript"
+        text.textContent = "I'm Learning Javascript"
+      });
+    </script>
+  </body>
+</html>
+
+ 
